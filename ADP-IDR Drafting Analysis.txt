@@ -30,17 +30,16 @@ ADP is a predictor of success. A higher ADP displays a higher confidence in succ
 
 IPR is a means by which we can understand the points contour of a position. The points contour helps inform us when it is necessary to draft "now" as opposed to later for a certain position.
 
-A good combination of these two factors should tell us two things: 1) How necessary it is to draft early for a position, 2) How valuable that position is
+A good combination of these two factors should tell us two things: 1) how much demand there is for talent at a position, 2) how much supply of talent exists at that position
 
-Note that these two are not the same. There may be a huge drop-off in kicker points (hence, important to draft early), but that position may not be relatively valuable. Given historical points contours for positions and an ADP-IPR relationship (derived from ADP vs points), it should be possible to calculate the best time to draft a given position, compared to what else is available on the draft board (given WR|TE|QB|RB|DEF|K ranks 1|1|2|5|1|1 available, it should be possible to say from which position to select).
-
-
-(local IPR correlation)*(IPR percentage) + (local ADP correlation)*(ADP percentage)
------------------------------------------------------------------------------------    X   historical max points for position = expected value
-                        (IPR correlation + ADP correlation)
+Note that these two are not the same. There may be a huge drop-off in kicker points (low supply of talent), but there may be no demand. Given historical points contours for positions and an ADP-IPR relationship (derived from ADP vs points), it should be possible to calculate the best time to draft a given position, compared to what else is available on the draft board (given WR|TE|QB|RB|DEF|K ranks 1|1|2|5|1|1 available, it should be possible to say from which position to select).
 
 
-
+(local IPR correlation)*(IPR percentage) + (local ADP correlation)*(ADP percentage) X   historical max points for position = expected value
 
 
 So let's say that IPR is shallow for TE (meaning that the tight ends soon following the best tight end rank tend to not be drastically lower), and the ADP is steep (meaning that historically, tight ends drafted after the current pick tend to be worse -- possibly meaning that many tight ends are selected at once). This means that the ADP percentage of points is going to take higher precedence over the IPR percentage of points. In other words, ADP correlation is an indicator of talent demand in some respect, while IPR correlation is an indicator of talent supply.
+
+In even more general terms: 
+
+priority weighted sum of (expected points for position rank and expected points for position draft pick) = draft value. 
