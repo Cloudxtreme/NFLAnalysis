@@ -1,0 +1,1 @@
+Signal processing / noise filtering as a way of extracting value
