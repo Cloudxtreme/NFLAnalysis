@@ -2,7 +2,7 @@ I've been thinking of looking over the past few years to see how ADP and intrapo
 The (not-yet-wholly-thought-out) methodology would probably look something like this:
 
 Organise players into their positions for the years 2012, 2013, 2014 (separately), and sort by total fantasy points.
-Combine the three years together, weighted by recency (e.g. 2014 could be weighted as 80%, 2013 as 15%, 2012 as 5%)
+Combine the three years together, weighted by recency (e.g. 2014 could be weighted as 60%, 2013 as 30%, 2012 as 10%) (a fantastic season 2 years ago should be worth ~3 fantastic games now)
 Repeat steps 1-2, instead sorting by ADP.
 Create two scatter plots for each position -- one for % of highest point total vs ADP, and the other for % of highest point total vs IPR.
 Try to answer the following questions:
@@ -20,3 +20,27 @@ Between two ADPs for a position, what is the expected points dropoff? (e.g. If I
 What is the expected value of a selection expected to be by IPR and ADP together (where ADP and IPR would be weighted by their correlation coefficients for that position)?
 
 Assuming that every FF manager attempts to maximise the amount of expected points on their active roster (and then their bench), what is the expected strategy for each manager (by drafting position), considering league size?
+
+Assuming that every FF manager attempts to maximise the amount of expected points on their entire roster (follows BPA mentality), what is the expected strategy for each manager (by drafting position), considering league size? (This might be used for trade forcing)
+
+
+Notes:
+
+ADP is a predictor of success. A higher ADP displays a higher confidence in success, which we believe is generally well-informed, as well as a higher premium placed on that position. An ADP vs points curve gives an idea of when the best players are drafted for a position.
+
+IPR is a means by which we can understand the points contour of a position. The points contour helps inform us when it is necessary to draft "now" as opposed to later for a certain position.
+
+A good combination of these two factors should tell us two things: 1) How necessary it is to draft early for a position, 2) How valuable that position is
+
+Note that these two are not the same. There may be a huge drop-off in kicker points (hence, important to draft early), but that position may not be relatively valuable. Given historical points contours for positions and an ADP-IPR relationship (derived from ADP vs points), it should be possible to calculate the best time to draft a given position, compared to what else is available on the draft board (given WR|TE|QB|RB|DEF|K ranks 1|1|2|5|1|1 available, it should be possible to say from which position to select).
+
+
+(local IPR correlation)*(IPR percentage) + (local ADP correlation)*(ADP percentage)
+-----------------------------------------------------------------------------------    X   historical max points for position = expected value
+                        (IPR correlation + ADP correlation)
+
+
+
+
+
+So let's say that IPR is shallow for TE (meaning that the tight ends soon following the best tight end rank tend to not be drastically lower), and the ADP is steep (meaning that historically, tight ends drafted after the current pick tend to be worse -- possibly meaning that many tight ends are selected at once). This means that the ADP percentage of points is going to take higher precedence over the IPR percentage of points. In other words, ADP correlation is an indicator of talent demand in some respect, while IPR correlation is an indicator of talent supply.
