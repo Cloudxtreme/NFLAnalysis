@@ -43,3 +43,6 @@ So let's say that IPR is shallow for TE (meaning that the tight ends soon follow
 In even more general terms: 
 
 priority weighted sum of (expected points for position rank and expected points for position draft pick) = draft value. 
+
+source for points: http://www.pro-football-reference.com/years/2014/fantasy.htm
+source for ADP: http://football.myfantasyleague.com/2014/adp
