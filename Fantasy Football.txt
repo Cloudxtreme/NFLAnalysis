@@ -1,0 +1,16 @@
+Weighted average for last 3 years with error bars
+
+Create a points (% of high points for position) vs ranking curve for each position to see relative dropoffs
+Create a points vs ADP curve for each position to see drafting dropoff
+
+What is the relationship between rank # and ADP by position? (weight % dropoff by correlation coefficient for ADP and rank#)
+How strongly does positional rank correlate with points scored? Is the strength of this correlation dependent on positional rank?
+How strongly does ADP correlate with points scored? Is the strength of this correlation dependent on ADP?
+How much dropoff is there between picks for a position?
+What is the absolute value of a positional pick expected to be?
+What has been historically the best strategy for drafting in order to maximise points (based on number of players and draft position)?
+
+"Drafting a TE at the xth pick compared to the yth pick is expected to increase points yield by z for TE."
+"TE was worth an average value of 60% of total value in the xth round."
+"TE was worth an average value of 50% of total value as the xth TE picked."
+"A TE drafted in the xth round is expected to be worth x points."

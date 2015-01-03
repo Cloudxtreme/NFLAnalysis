@@ -1,0 +1,18 @@
+Strength of schedule / strength of victory relating to:
+
+Superbowl wins "http://www.pro-football-reference.com/teams/nwe/"
+Superbowl appearances "http://www.pro-football-reference.com/teams/nwe/"
+Playoff success "http://www.pro-football-reference.com/teams/nwe/"
+Playoff appearance "http://www.pro-football-reference.com/teams/nwe/"
+Playoff games won "http://www.pro-football-reference.com/teams/nwe/playoffs.htm"
+Playoff seeding "http://www.pro-football-reference.com/years/2012/"
+Player games lost to injuries "http://www.pro-football-reference.com/teams/nwe/2013_injuries.htm"
+
+
+Data frame, 
+
+organise that by team
+organised by year
+
+
+include w,l,t, SoS, SoV, SBW, SBA, playoff win%, playoff appearance, playoff games won, playoff seeding, player-games lost to injuries

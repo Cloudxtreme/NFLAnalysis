@@ -1,0 +1,20 @@
+-Injury rate for position by team
+
+-Target % / Snap % : measure of target-use, decreases when snap% increases without corresponding target % increase, increases when target% increases without corresponding snap% increase
+                     This is good to see if players are being used primarily as blockers or are running low percentage routes
+
+-Yards/team snaps : measure of vertical usage (consistent big play potential). Lots of snaps without lots of yards (higher YPS) indicates either low YPT or low usage.  
+                    [(yards/target)*(targets/ team snaps)]
+
+-YPC - Offensive line yards per carry (RB) : measure of running back talent
+
+-Age vs yards per snap (threshold number of snaps) by position : best age for position talent
+
+-Red zone target or carry % by player : measure of red zone use
+
+-player RZTD per RZtarget : player RZ effectiveness 
+
+-player RZTD / team RZ snap : (player RZTD / RZtarget) * RZtarget/RZsnaps = player effectiveness * how often they go to player = RZ dependability by player for team
+
+
+
